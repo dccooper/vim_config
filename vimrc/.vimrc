@@ -7,6 +7,7 @@
 " 
 " This vimrc is divided into these sections:
 " 
+" * Pathogen 
 " * Terminal Settings
 " * User Interface
 " * Text Formatting -- General
@@ -29,6 +30,10 @@
 
 " first clear any existing autocommands:
 autocmd!
+
+" * Pathogen
+" call pathogen#runtime_append_all_bundles()
+" call pathogen#helptags()
 
 
 " * Terminal Settings
