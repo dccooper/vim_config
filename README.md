@@ -2,7 +2,7 @@
 
 Installation:
 
-    git clone git://github.com/dccooper/vim_config
+    git clone git://github.com/dccooper/vim_config ~/.vim
 
 Create symlinks:
 
