@@ -2,10 +2,8 @@
 " Rule #1: Don't add anything you don't understand
 
 " Setting the color scheme
-colorscheme vilight
-
-" Setting Syntax Highlighing
 syntax enable
+colorscheme vilight
 
 " Setting Tabs and Tabstops
 set tabstop=4
@@ -15,7 +13,7 @@ set expandtab
 " Set UI Config
 set number
 set showcmd
-set cursorline
+set nocursorline
 set lazyredraw
 
 " Set filename properties
@@ -25,4 +23,4 @@ set wildmenu
 " Set search properties
 set incsearch
 set hlsearch
-
+set ignorecase
